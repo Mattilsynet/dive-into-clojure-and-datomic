@@ -22,6 +22,12 @@ java -version
 
 ## Install Clojure CLI
 
+This step is semi-optional. Neither VS Code or IntelliJ requires it. The Clojure
+CLI is nice to have, as it lets you run stuff from the shell. Whether that is
+builds, REPLs, tests or something else entirely. This workshop will rarely,
+leave the IDE, though, and mostly just to run the database and not the Clojure
+CLI.
+
 Follow the [Installation
 instructions](https://clojure.org/guides/install_clojure) on the official
 Clojure website.
