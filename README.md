@@ -46,6 +46,14 @@ and Linux install process with Cygwin, or install the CLI as a Powershell module
 from [the official install
 scripts](https://github.com/clojure/brew-install/releases/tag/1.12.1.1550).
 
+## Download the Datomic transactor
+
+Head over to [Datomic Pro Setup](https://docs.datomic.com/setup/pro-setup.html)
+and download the Datomic transactor. You can simply unpack the ZIP archive in
+the repo, or put it somewhere else if your prefer. If you place it in another
+location, you might want to put the bin directory on your path so you can easily
+run it with the config in the repo.
+
 ## IDE Setup
 
 For a smooth developer experience with Clojure, it is recommended to have your
