@@ -57,10 +57,10 @@ run it with the config in the repo.
 ## IDE Setup
 
 For a smooth developer experience with Clojure, it is recommended to have your
-IDE integrate with the REPL. Most of the mainstream IDEs have plugins to do
-this. Otherwise you end up with a lot of manual back and forth, copying from the
-IDE and pasting things in the REPL, or restarting the Clojure process to
-evaluate things again.
+IDE integrate with the REPL. The most mainstream IDEs have plugins to do this.
+Otherwise you end up with a lot of manual back and forth, copying from the IDE
+and pasting things in the REPL, or restarting the Clojure process to evaluate
+things again.
 
 If you find yourself spending a lot of time getting Vim or Emacs plugins
 installed and configured, you might want to use VS Code or IntelliJ if you are
