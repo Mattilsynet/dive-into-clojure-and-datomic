@@ -50,9 +50,13 @@ scripts](https://github.com/clojure/brew-install/releases/tag/1.12.1.1550).
 
 Head over to [Datomic Pro Setup](https://docs.datomic.com/setup/pro-setup.html)
 and download the Datomic transactor. You can simply unpack the ZIP archive in
-the repo, or put it somewhere else if your prefer. If you place it in another
-location, you might want to put the bin directory on your path so you can easily
-run it with the config in the repo.
+the repo.
+
+If you choose to place it elsewhere, there are some caveats. The transactor will
+change its PWD to the executable's parent directory, and all paths will be
+relative to this path. So if you do place it in a different location, you will
+probably want to use absolute paths for the configuration file, and change its
+data directory to an absolute path.
 
 ## IDE Setup
 
